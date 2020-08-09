@@ -1,0 +1,296 @@
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+    */
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+        .containt {
+    width: 100%;
+}
+    .top-header {
+    width: 48%;
+}
+    .bottom-header {
+    width: 52%;
+}
+    .main-header {
+    height: 782px;
+}
+    .top-header h1 {
+    font-size: 220%;
+}
+    .main-section {
+    height: 267px;
+}
+    .left-section {
+    width: 47%;
+}
+    .right-section {
+    width: 75%;
+}
+    .right-section img {
+    margin-top: -317px;
+    width: 68%;
+}
+    .containt {
+    width: 100%;
+}
+    .bottom-article {
+    width: 100%;
+}
+    .bottom-1 {
+    width: 24%;
+}
+    .bottom-2 {
+    width: 24%;
+    margin-left: 1%
+}
+.bottom-3 {
+    width: 24%;
+    margin-left: 1%;
+}
+    .bottom-4 {
+    width: 24%;
+
+}
+    .bottom-article p {
+    width: 94%;
+    padding-left: 0px;
+}
+    .bottom-article a {
+    margin-left: 12%;
+}
+    .bottom-aside1 {
+    width: 32%;
+    padding-left: 10px;
+}
+    .bottom-aside2 {
+    width: 32%;
+    padding-left: 6px;
+}
+    .bottom-aside3 {
+    width: 31%;
+        padding-right: 14px;
+}
+    .top-footer a {
+    margin-left: 264px;
+}
+    .mideol-footer1 {
+    width: 20%;
+    float: left;
+}
+    .mideol-footer2 {
+    width: 17%;
+}
+    .mideol-footer3 {
+    width: 21%;
+}
+    .mideol-footer4 {
+    width: 40%;
+}
+    .mideol-footer input {
+    padding: 8px 10px;
+}
+    .mideol-footer input[type="submit"] {
+    padding: 9px 1px;
+}
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	        .containt {
+    width: 100%;
+}
+    .top-header {
+    width: 48%;
+}
+    .bottom-header {
+    width: 52%;
+}
+    .main-header {
+    height: 700px;
+}
+    .top-header h1 {
+    font-size: 220%;
+    padding-top: 71px;
+}
+    .main-section {
+    height: 267px;
+}
+    .left-section {
+    width: 47%;
+    padding-top: 26px;
+}
+    .right-section {
+    width: 75%;
+}
+    .right-section img {
+    margin-top: -354px;
+    width: 68%;
+}
+    .containt {
+    width: 100%;
+}
+    .bottom-article {
+    width: 100%;
+}
+    .bottom-1 {
+    width: 24%;
+}
+    .bottom-2 {
+    width: 24%;
+    margin-left: 1%
+}
+.bottom-3 {
+    width: 24%;
+    margin-left: 1%;
+}
+    .bottom-4 {
+    width: 24%;
+
+}
+    .bottom-article p {
+    width: 94%;
+    padding-left: 0px;
+}
+    .bottom-article a {
+    margin-left: 0%;
+    padding: 5% 18%;
+}
+    .bottom-aside1 {
+    width: 100%;
+    padding-left: 0px; 
+}
+    .bottom-aside2 {
+    width: 100%;
+    padding-left: 0px;     
+}
+    .bottom-aside3 {
+    width: 100%;
+    padding-left: 0px;    
+}
+    .top-footer a {
+    margin-left: 32%;
+    padding: 12px 26px;
+}
+    .mideol-footer1 {
+    width: 20%;
+    float: left;
+}
+    .mideol-footer2 {
+    width: 17%;
+}
+    .mideol-footer3 {
+    width: 21%;
+}
+    .mideol-footer4 {
+    width: 40%;
+}
+    .mideol-footer input {
+    padding: 3px 0px;
+}
+    .mideol-footer input[type="submit"] {
+    margin-top: 4%;
+    margin-left: 0%;
+    padding: 2px 0px;
+    border-radius: 0PX;
+}
+    .top-header {
+    width: 100%;
+}
+    .bottom-header {
+    width: 100%;
+}
+    .top-header h2 {
+    display: block;
+    text-align: center;
+    font-size: 245%;
+}
+    .top-header a {
+    padding: 13px 3px;
+}
+    .bottom-header a {
+    padding: 10px 15px;
+    border: 1px solid #323232;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+}
+    .bottom-header a:hover{
+    background-color: #252525;
+    }
+    .top-article p {
+    font-size: 95%;
+}
+    .bottom-article img {
+    margin-left: 17%;
+}
+    .bottom-aside p {
+    background-image: none;
+    padding: 0px 0px 0px 8px;
+}
+    .top-aside h2 {
+    padding-top: 54px;
+    padding-bottom: 26px;
+}
+    .main-aside {
+    height: 443px;
+}
+    .top-footer h2 {
+    font-size: 155%;
+}
+    .top-footer p {
+    font-size: 87%;
+}
+    .mideol-footer p {
+    font-size: 49%;
+}
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+}
